@@ -1,6 +1,7 @@
 class Owner
   # code goes here
   attr_accessor :name, :pets
+  @@all = []
 
   def initialize
     @species = species
@@ -8,6 +9,9 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
+  def self.all
+    @@all
+  end
   def buy_cat
   end
 
