@@ -5,6 +5,6 @@ class Owner
   def initialize
     @species = species
     @name = name
-    @pets = hash.new {fishes: [], cats: [], dogs: []}
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 end
