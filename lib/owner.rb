@@ -11,6 +11,10 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
+  def save
+    @@all << self
+  end
+  
   def self.all
     @@all
   end
@@ -18,11 +22,7 @@ class Owner
   def say_species
     "I am a #{@species}."
   end
-
-  def save
-    @@all << self
-  end
-
+  
   def buy_cat
   end
 
