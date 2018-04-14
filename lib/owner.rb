@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor :name
+  attr_accessor :name, :pets
 
   def initialize
     @species = species
