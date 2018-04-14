@@ -27,4 +27,7 @@ class Owner
 
   def buy_fish
   end
+
+  def self.reset_all
+  end
 end
