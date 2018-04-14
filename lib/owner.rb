@@ -15,6 +15,10 @@ class Owner
     @@all
   end
 
+  def say_species
+    @species
+  end
+
   def save
     @@all << self
   end
