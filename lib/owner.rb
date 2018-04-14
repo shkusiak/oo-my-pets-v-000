@@ -14,15 +14,17 @@ class Owner
   def save
     @@all << self
   end
-  
+
   def self.all
     @@all
+  end
+  def self.count
   end
 
   def say_species
     "I am a #{@species}."
   end
-  
+
   def buy_cat
   end
 
