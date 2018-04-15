@@ -41,16 +41,16 @@ class Owner
     @pets[:fishes] << new_name
   end
 
-  def self.walks_dogs
+  def walks_dogs
   end
 
-  def self.play_with_cats
+  def play_with_cats
   end
 
-  def self.feed_fish
+  def feed_fish
   end
 
-  def self.sell_pets
+  def sell_pets
   end
 
   def list_pets
