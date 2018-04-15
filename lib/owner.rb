@@ -43,12 +43,21 @@ class Owner
 
   def self.walks_dogs
   end
+
   def self.play_with_cats
   end
+
   def self.feed_fish
   end
+
   def self.sell_pets
   end
+  
+  def self.list_pets
+    
+  end
+
   def self.reset_all
+    @@all = []
   end
 end
