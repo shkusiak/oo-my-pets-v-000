@@ -36,7 +36,9 @@ class Owner
     @pets[:dogs] << new_name
   end
 
-  def buy_fish
+  def buy_fish(name)
+    new_name = Fish.new(name)
+    @pets[:fishes] << new_name
   end
 
   def self.reset_all
