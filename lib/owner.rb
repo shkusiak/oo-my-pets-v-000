@@ -61,6 +61,7 @@ class Owner
   end
 
   def sell_pets
+    @pets = empty
   end
 
   def list_pets
