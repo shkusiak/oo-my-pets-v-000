@@ -46,7 +46,7 @@ class Owner
   end
 
   def play_with_cats
-    Cat.mood = "happy"
+    #Cat.mood = "happy"
   end
 
   def feed_fish
