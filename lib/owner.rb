@@ -52,9 +52,10 @@ class Owner
 
   def self.sell_pets
   end
-  
+
   def self.list_pets
-    
+    "I have #{} fish, #{} dog(s), and #{} cat(s)."
+
   end
 
   def self.reset_all
