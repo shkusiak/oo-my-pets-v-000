@@ -9,11 +9,12 @@ class Owner
     @species = species
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
-  end
-
-  def save
     @@all << self
   end
+
+#  def save
+#    @@all << self
+#  end
 
   def self.all
     @@all
