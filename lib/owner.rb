@@ -55,7 +55,6 @@ class Owner
 
   def self.list_pets
     "I have #{} fish, #{} dog(s), and #{} cat(s)."
-
   end
 
   def self.reset_all
